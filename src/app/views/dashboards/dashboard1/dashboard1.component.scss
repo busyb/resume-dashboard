@@ -1,0 +1,244 @@
+.classic-admin-card .card-body {
+    height: 150px;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 0.9rem;
+}
+
+.classic-admin-card .card-body p {
+    font-size: 13px;
+    opacity: 0.7;
+    margin-bottom: 0;
+    height: 150px;
+}
+
+.classic-admin-card .card-body h4 {
+    margin-top: 10px;
+}
+
+.classic-admin-card .card-body .float-right .fa {
+    height: 150px;
+    font-size: 3rem;
+    opacity: 0.5;
+}
+
+.classic-admin-card .progress {
+    height: 150px;
+    margin: 0;
+    opacity: 0.7;
+}
+
+.table-ui {
+    border: 1px solid #e0e0e9;
+}
+
+.blue-gradient {
+    background: -webkit-linear-gradient(50deg, #45cafc, #303f9f);
+    background: linear-gradient(40deg, #45cafc, #4285f4);
+}
+
+.card.card-cascade {
+    .view {
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.15), 0 3px 12px 0 rgba(0, 0, 0, 0.15);
+    }
+}
+
+
+
+
+
+
+
+
+
+//--------------
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.58;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+body:before {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #128ff2;
+    content: "";
+    z-index: 0;
+}
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+a {
+    color: #128ff2;
+}
+
+button {
+    box-shadow: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+    outline: none;
+    line-height: 100%;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 0.6rem 1rem;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    min-height: 38px;
+}
+
+button.primary {
+    background-color: #128ff2;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+    color: #fff;
+}
+
+input {
+    font-size: 1rem;
+}
+
+input[type="file"] {
+    border: 1px solid #128ff2;
+    padding: 6px;
+    max-width: 100%;
+}
+
+.file-input {
+    width: 100%;
+}
+
+.submit-btn {
+    display: block;
+    margin-top: 15px;
+    min-width: 100px;
+}
+
+@media screen and (min-width: 500px) {
+    .file-input {
+        width: calc(100% - 115px);
+    }
+
+    .submit-btn {
+        display: inline-block;
+        margin-top: 0;
+        margin-left: 10px;
+    }
+}
+
+.upload-container {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
+    margin-top: 60px;
+    min-height: 400px;
+    position: relative;
+    padding: 20px;
+}
+
+.upload-header {
+    border-bottom: 1px solid #ececec;
+}
+
+.upload-header h2 {
+    font-weight: 500;
+}
+
+.single-upload {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.upload-response {
+    overflow-x: hidden;
+    word-break: break-all;
+}
+
+
+
+
+//----------------- card css
+
+.cascading-admin-card {
+    margin-top: 20px; }
+.cascading-admin-card .admin-up {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: -20px; }
+.cascading-admin-card .admin-up mdb-icon {
+    padding: 1.7rem;
+    font-size: 2rem;
+    color: #fff;
+    text-align: left;
+    margin-right: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 9px 0 rgba(0,0,0,.2),0 2px 13px 0 rgba(0,0,0,.19); }
+.cascading-admin-card .admin-up .data {
+    float: right;
+    margin-top: 2rem;
+    text-align: right; }
+.cascading-admin-card .admin-up .data p {
+    color: #999999;
+    font-size: 12px; }
+
+.classic-admin-card .card-body {
+    color: #fff;
+    margin-bottom: 0;
+    padding: 0.9rem; }
+.classic-admin-card .card-body p {
+    font-size: 13px;
+    opacity: 0.7;
+    margin-bottom: 0; }
+.classic-admin-card .card-body h4 {
+    margin-top: 10px; }
+.classic-admin-card .card-body .float-right .fa {
+    font-size: 3rem;
+    opacity: 0.5; }
+
+.classic-admin-card .progress {
+    margin: 0;
+    opacity: 0.7; }
+
+
+.cascading-admin-card .admin-up .fa {
+    -webkit-box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2), 0 2px 13px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2), 0 2px 13px 0 rgba(0, 0, 0, 0.19);
+}
+
+.my-small-btn {
+    width:100px;
+    padding:5px;
+    text-align: center;
+}
